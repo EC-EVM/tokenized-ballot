@@ -1,13 +1,28 @@
-# Voting Contract 
-The following contract is quite complex, but showcases a lot of Solidity’s features. It implements a voting contract. Of course, the main problems of electronic voting is how to assign voting rights to the correct persons and how to prevent manipulation. We will not solve all problems here, but at least we will show how delegated voting can be done so that vote counting is automatic and completely transparent at the same time.
-
-The idea is to create one contract per ballot, providing a short name for each option. Then the creator of the contract who serves as chairperson will give the right to vote to each address individually.
-
-The persons behind the addresses can then choose to either vote themselves or to delegate their vote to a person they trust.
-
-At the end of the voting time, winningProposal() will return the proposal with the largest number of votes.
-
+# Tokenized Votes
+```
+ERC20Votes properties
+Snapshots
+Creating snapshots when supply changes
+Using snapshots
+Self delegation
+Contract overall operation
+```
 ## Getting Started
+
+### Running the Test Script First
+-There's a contract MyToken.sol and you can run "npx hardhat compile"<br /> 
+-There's a script TestMyToken.ts and you can "npx hardhat run ./scripts/TestMyToken.ts"<br /> 
+
+### How to initialize a new project
+-copy all files/folders from voting-contract except artifacts, cache, node_modules<br /> 
+-create new tokenized-ballot and paste here<br /> 
+-make sure you have the .env file (.gitignore it)<br /> 
+create a scripts folder under the root tokenized-ballot folder & then create a TestMyToken.ts file under scripts directory<br /> 
+-don't forget to npm i @openzeppelin/contracts
+
+==============================================
+
+## TODO
 
 ### Running a script
 
