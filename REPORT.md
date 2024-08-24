@@ -97,3 +97,22 @@ This is a group activity for at least 3 students:
     1. `npx ts-node --files scripts/DelegateVotes.ts 0x3c9d658a9b358cf1985bc52c5476229e8b186f1f 0x55631F259DE138bCaccfd54D17C6597C58241bE4`
     2. [TxHash (0x312...195)](https://sepolia.etherscan.io/tx/0x3123b35a7df87a33f0fb37272be05e88d9c46a8f2492a075c8bace7a00472195)
     3. [Script ↗](./scripts/DelegateVotes.ts)
+   
+16. 💫 **[Pass]:** @Carl Youngblood deployed a tokenized ballot. Later on we discovered this contract was old and was missing some error checks.
+    1. `npx ts-node --files ./scripts/DeployTokenizedBallot.ts 0x3C9d658a9B358cf1985bc52C5476229E8b186F1f 6564572 Apple Pear Orange Strawberry`
+    2. [TxHash (0xe69...cca)](https://sepolia.etherscan.io/tx/0xe69b9c158a24cfa860c71843ba1b1671c083bc14abb604d19ef73faec8904cca)
+    3. [Script ↗](./scripts/DeployTokenizedBallot.ts)
+    4. Output:
+```
+Deploying ballot with proposals: Apple,Pear,Orange,Strawberry
+Confirm? (Y/n)
+Y
+Last block number: 6564583n
+Deployer address: 0x822D80eCd89b2aae0c52590c7f1351351E720EAa
+Deployer balance: 0.029488483783847335 ETH
+
+Deploying Ballot contract
+Transaction hash: 0xe69b9c158a24cfa860c71843ba1b1671c083bc14abb604d19ef73faec8904cca
+Waiting for confirmations...
+Ballot contract deployed to: 0xb79fbbc37d131667de31ad68501e02a5bb897286
+```
