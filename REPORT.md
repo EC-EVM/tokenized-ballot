@@ -43,7 +43,7 @@ This is a group activity for at least 3 students:
     2. [TxHash (0x05d...a6f)](https://sepolia.etherscan.io/tx/0x05d5b2b7a1ad59ba3cdaa7dd578a15f049c1772769af285fe7f8843ec301aa6f)
     3. [Script ↗](./scripts/MintTokens.ts)
 
-5. 💫 **[Pass]:** @Timster minted 1000n to `0x822d80ecd89b2aae0c52590c7f1351351e720eaa`
+5. 💫 **[Pass]:** @Timster minted 1000n to `0x822d80ecd89b2aae0c52590c7f1351351e720eaa` (@Carl Youngblood)
     1. `npx ts-node --files scripts/MintTokens.ts 0x3c9d658a9b358cf1985bc52c5476229e8b186f1f 0x822d80ecd89b2aae0c52590c7f1351351e720eaa 1000`
     2. [TxHash (0x0f0...d9b)](https://sepolia.etherscan.io/tx/0x0f0ba33145c3c3f660bd573b88a0012a7530c0aad6cd9fded3a9bea9a1784d9b)
     3. [Script ↗](./scripts/MintTokens.ts)
