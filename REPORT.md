@@ -11,7 +11,7 @@ This is a group activity for at least 3 students:
 
 ## Group 2
 
-| Unique id | Discord username    | Public address                    |
+| Unique id | Discord username    | Wallet address                    |
 | --------- | ------------------- | --------------------------------- |
 | RAAzLF    | @GRAVER 👾                | |
 | 2SyBp0    | @wackozacco        | |
