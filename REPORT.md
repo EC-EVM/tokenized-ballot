@@ -83,5 +83,17 @@ This is a group activity for at least 3 students:
     2. [TxHash (0x9cc...425)](https://sepolia.etherscan.io/tx/0x9ccc81d9de8f036f7559ca724b88255880a4b8dc21a9baedc078835dbacde425)
     3. [Script ↗](./scripts/DelegateVotes.ts)
 
+13. 💫 **[Pass]:** `0x8152ae0BE775eE8C530b5b13f229D75ADc9291b0` minted 1000n to himself
+    1. `npx ts-node --files scripts/MintTokens.ts 0x3c9d658a9b358cf1985bc52c5476229e8b186f1f 0x8152ae0BE775eE8C530b5b13f229D75ADc9291b0 1000`
+    2. [TxHash (0x556...3b5)](https://sepolia.etherscan.io/tx/0x556d96ec87b06b93e69d83c4bb9aa8fd6588f7aab7042f6509eded5eda0cd3b5)
+    3. [Script ↗](./scripts/MintTokens.ts)
 
-0x99940BeaCB5FC1d87b7Df18736559c66A0f98b23
+14. 💫 **[Pass]:** `0x8152ae0BE775eE8C530b5b13f229D75ADc9291b0` delegated his votes to himself
+    1. `npx ts-node --files scripts/DelegateVotes.ts 0x3c9d658a9b358cf1985bc52c5476229e8b186f1f 0x8152ae0BE775eE8C530b5b13f229D75ADc9291b0`
+    2. [TxHash (0x8f6...990)](https://sepolia.etherscan.io/tx/0x8f6c27c342bfa9b94745c14eb5da647288092035f47dac1a02c877795c735990)
+    3. [Script ↗](./scripts/DelegateVotes.ts)
+
+15. 💫 **[Pass]:** `0x55631F259DE138bCaccfd54D17C6597C58241bE4` delegated his votes to himself
+    1. `npx ts-node --files scripts/DelegateVotes.ts 0x3c9d658a9b358cf1985bc52c5476229e8b186f1f 0x55631F259DE138bCaccfd54D17C6597C58241bE4`
+    2. [TxHash (0x312...195)](https://sepolia.etherscan.io/tx/0x3123b35a7df87a33f0fb37272be05e88d9c46a8f2492a075c8bace7a00472195)
+    3. [Script ↗](./scripts/DelegateVotes.ts)
