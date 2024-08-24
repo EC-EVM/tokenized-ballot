@@ -38,7 +38,7 @@ This is a group activity for at least 3 students:
     2. [TxHash (0x424...194)](https://sepolia.etherscan.io/tx/0x42402acbf50e6c7a93b64b886aaac3a2ed44f4e04fdb2969c42ede8abf0ba194)
     3. [Script ↗](./scripts/GrantMinterRole.ts)
 
-4. 💫 **[Pass]:** @Timster minted 1000n to `0x8f4db4f817bb198895320d03a0629a69e6be13b8`
+4. 💫 **[Pass]:** `0x8f4db4F817BB198895320d03A0629a69e6bE13B8` minted 100n to himself
     1. `npx ts-node --files scripts/MintTokens.ts 0x3c9d658a9b358cf1985bc52c5476229e8b186f1f 0x8f4db4f817bb198895320d03a0629a69e6be13b8 1000`
     2. [TxHash (0x05d...a6f)](https://sepolia.etherscan.io/tx/0x05d5b2b7a1ad59ba3cdaa7dd578a15f049c1772769af285fe7f8843ec301aa6f)
     3. [Script ↗](./scripts/MintTokens.ts)
@@ -57,3 +57,18 @@ This is a group activity for at least 3 students:
     1. `npx ts-node --files scripts/DelegateVotes.ts 0x3c9d658a9b358cf1985bc52c5476229e8b186f1f 0x822D80eCd89b2aae0c52590c7f1351351E720EAa`
     2. [TxHash (0x403...d44)](https://sepolia.etherscan.io/tx/0x40371ef6ed060c6a888f9affd18921343627956f4e2d0dfb297a0f30ff7f4d44)
     3. [Script ↗](./scripts/DelegateVotes.ts)
+
+8. 💫 **[Pass]:** @Timster minted 1000n to `0x117556e746eED7053dD99dEb9fae019CbaC2013E`
+    1. `npx ts-node --files scripts/MintTokens.ts 0x3c9d658a9b358cf1985bc52c5476229e8b186f1f 0x117556e746eED7053dD99dEb9fae019CbaC2013E 1000`
+    2. [TxHash (0xe39...04d)](https://sepolia.etherscan.io/tx/0xe39ff1c2a4c9eeb9af323d336870e34ddf472ad49517c0793d7343443f2c904d)
+    3. [Script ↗](./scripts/MintTokens.ts)
+
+9. 💫 **[Pass]:** `0x8f4db4F817BB198895320d03A0629a69e6bE13B8` minted 900n to himself
+    1. `npx ts-node --files scripts/MintTokens.ts 0x3c9d658a9b358cf1985bc52c5476229e8b186f1f 0x8f4db4F817BB198895320d03A0629a69e6bE13B8 900`
+    2. [TxHash (0xdb...5df)](https://sepolia.etherscan.io/tx/0xdbb16c418b8666c6934fbf3d5a06be757bb97c52dfef1fec38fd9310a34855df)
+    3. [Script ↗](./scripts/MintTokens.ts)
+
+10. 💫 **[Pass]:** @Timster minted 1000n to `0x99940BeaCB5FC1d87b7Df18736559c66A0f98b23`
+    1. `npx ts-node --files scripts/MintTokens.ts 0x3c9d658a9b358cf1985bc52c5476229e8b186f1f 0x99940BeaCB5FC1d87b7Df18736559c66A0f98b23 1000`
+    2. [TxHash (0x7fa...648)](https://sepolia.etherscan.io/tx/0x7faf2698720ddf8d53aff68b6ac9d35b62ec0dd687a16eeb3d707a55f77df648)
+    3. [Script ↗](./scripts/MintTokens.ts)
