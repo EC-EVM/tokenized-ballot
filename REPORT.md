@@ -53,7 +53,7 @@ This is a group activity for at least 3 students:
     2. [TxHash (0xc31...d47)](https://sepolia.etherscan.io/tx/0xc31eb244dd7bcc98d3a8e5aa5c588c5b454348b2ab2760aeaebd8703e0801d47)
     3. [Script ↗](./scripts/MintTokens.ts)
 
-7.  💫 **[Pass]:** @Carl Youngblood delegated 1000n to himself
+7.  💫 **[Pass]:** @Carl Youngblood delegated his votes to himself
     1. `npx ts-node --files scripts/DelegateVotes.ts 0x3c9d658a9b358cf1985bc52c5476229e8b186f1f 0x822D80eCd89b2aae0c52590c7f1351351E720EAa`
     2. [TxHash (0x403...d44)](https://sepolia.etherscan.io/tx/0x40371ef6ed060c6a888f9affd18921343627956f4e2d0dfb297a0f30ff7f4d44)
     3. [Script ↗](./scripts/DelegateVotes.ts)
@@ -72,3 +72,8 @@ This is a group activity for at least 3 students:
     1. `npx ts-node --files scripts/MintTokens.ts 0x3c9d658a9b358cf1985bc52c5476229e8b186f1f 0x99940BeaCB5FC1d87b7Df18736559c66A0f98b23 1000`
     2. [TxHash (0x7fa...648)](https://sepolia.etherscan.io/tx/0x7faf2698720ddf8d53aff68b6ac9d35b62ec0dd687a16eeb3d707a55f77df648)
     3. [Script ↗](./scripts/MintTokens.ts)
+
+11. 💫 **[Pass]:** `0x8f4db4F817BB198895320d03A0629a69e6bE13B8` delegated his votes to himself
+    1. `npx ts-node --files scripts/DelegateVotes.ts 0x3c9d658a9b358cf1985bc52c5476229e8b186f1f 0x8f4db4F817BB198895320d03A0629a69e6bE13B8`
+    2. [TxHash (0xa45...8c0)](https://sepolia.etherscan.io/tx/0xa452cb63bcad895b0dd44b73ac3c5f60cf28b00c72598f3635142278e62818c0)
+    3. [Script ↗](./scripts/DelegateVotes.ts)
