@@ -1,11 +1,11 @@
-import { viem } from "hardhat";
+import { viem } from 'hardhat';
 import { parseEther } from "viem";
 
 const MINT_VALUE = parseEther("0.0000000000000001");
 
-
 async function main() {
-    const publicClient = await viem.getPublicClient();
+  // A Public Client is an interface to "public" JSON-RPC API methods such as retrieving block numbers, transactions, reading from smart contracts, etc through Public Actions.  
+  const publicClient = await viem.getPublicClient();
   const [deployer, acc1, acc2] = await viem.getWalletClients();
   const contract = await viem.deployContract("MyToken");
   console.log(`Token contract deployed at ${contract.address}\n`);
@@ -27,7 +27,7 @@ async function main() {
 
     // checking voting power
     const votes = await contract.read.getVotes([acc1.account.address]);
-  console.log(
+    console.log(
     `Account ${
       acc1.account.address
     } has ${votes.toString()} units of voting power before self delegating\n`
