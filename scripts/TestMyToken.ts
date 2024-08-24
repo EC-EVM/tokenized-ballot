@@ -45,7 +45,7 @@ async function main() {
     } has ${votesAfter.toString()} units of voting power after self delegating\n`
   );
 
-  //experimenting voting power
+  //experimenting token transfer
   const transferTx = await contract.write.transfer(
     [acc2.account.address, MINT_VALUE / 2n],
     {
