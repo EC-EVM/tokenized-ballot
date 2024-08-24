@@ -77,3 +77,11 @@ This is a group activity for at least 3 students:
     1. `npx ts-node --files scripts/DelegateVotes.ts 0x3c9d658a9b358cf1985bc52c5476229e8b186f1f 0x8f4db4F817BB198895320d03A0629a69e6bE13B8`
     2. [TxHash (0xa45...8c0)](https://sepolia.etherscan.io/tx/0xa452cb63bcad895b0dd44b73ac3c5f60cf28b00c72598f3635142278e62818c0)
     3. [Script ↗](./scripts/DelegateVotes.ts)
+
+12. 💫 **[Pass]:** `0x99940BeaCB5FC1d87b7Df18736559c66A0f98b23` delegated his votes to `0x8071527946235eF9Ca115bd409C8487496BEbF9B`
+    1. `npx ts-node --files scripts/DelegateVotes.ts 0x3c9d658a9b358cf1985bc52c5476229e8b186f1f 0x8071527946235eF9Ca115bd409C8487496BEbF9B`
+    2. [TxHash (0x9cc...425)](https://sepolia.etherscan.io/tx/0x9ccc81d9de8f036f7559ca724b88255880a4b8dc21a9baedc078835dbacde425)
+    3. [Script ↗](./scripts/DelegateVotes.ts)
+
+
+0x99940BeaCB5FC1d87b7Df18736559c66A0f98b23
