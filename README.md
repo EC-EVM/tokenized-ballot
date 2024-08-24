@@ -46,7 +46,70 @@ To deploy a new contract you can run the DeployWithViem.ts script below:
 npx ts-node --files ./scripts/DeployWithViem.ts 
 npx ts-node --files ./scripts/DeployWithViem.ts ramen pizza burger 
 ```
+### Deploy Token
 
+```shell 
+npx ts-node --files ./scripts/DeployMyToken.ts
+```
+
+### Grant Minter Role
+
+```shell 
+npx ts-node --files ./scripts/GrantMinterRole.ts CONTRACT MINTER_ADDRESS
+```
+
+### Mint Tokens
+
+```shell 
+npx ts-node --files ./scripts/MintTokens.ts CONTRACT TO_ADDRESS AMOUNT
+```
+
+### Transfer Tokens
+
+```shell 
+npx ts-node --files ./scripts/TransferTokens.ts CONTRACT_ADDRESS TO_ADDRESS AMOUNT
+```
+
+### Delegate Votes
+
+```shell 
+npx ts-node --files ./scripts/DelegateVotes.ts CONTRACT_ADDRESS DELEGATE_ADDRESS
+```
+
+### View Token Status
+
+```shell 
+npx ts-node --files ./scripts/ViewTokenStatus.ts CONTRACT_ADDRESS ACCOUNT_ADDRESS
+```
+
+### Deploy Ballot
+
+*Target block determines voting power/delegation
+
+```shell 
+npx ts-node --files ./scripts/DeployTokenizedBallot.ts TOKEN_CONTRACT TARGET_BLOCK_NUMBER PROPOSAL_NAMES
+```
+
+### Cast Vote
+
+*Proposal_Index follows values: 0,1,2…
+*Use Ballot Contract Address
+
+```shell 
+npx ts-node --files ./scripts/CastVote.ts CONTRACT_ADDRESS PROPOSAL_INDEX AMOUNT
+```
+
+### View Voting Status
+
+```shell 
+npx ts-node --files ./scripts/ViewVotingStatus.ts CONTRACT_ADDRESS ACCOUNT_ADDRESS
+```
+
+### View Results
+
+```shell 
+npx ts-node --files ./scripts/ViewProposalStatus.ts CONTRACT_ADDRESS
+```
 
 ### Installation
 
