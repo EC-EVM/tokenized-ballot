@@ -20,6 +20,11 @@ Contract overall operation
 create a scripts folder under the root tokenized-ballot folder & then create a TestMyToken.ts file under scripts directory<br /> 
 -don't forget to npm i @openzeppelin/contracts
 
+### Creating new branch
+1) Click "main" branch button -> then "view all branches" on dropdown -> then click "New branch" button -> add your branch name <br/>
+2) On your terminal run: git switch [new_branch_name] eg: git switch graver2 <br/>
+3) then git add . -> git commit -m "⚓ first commit"
+
 ==============================================
 
 ## TODO
