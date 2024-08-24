@@ -11,15 +11,15 @@ This is a group activity for at least 3 students:
 
 ## Group 2
 
-| Unique id | Discord username    |
-| --------- | ------------------- |
-| RAAzLF    | @GRAVER 👾                |
-| 2SyBp0    | @wackozacco        |
-| 10exgX    | @δαλλασκατ    |
-| r5YSqY    | @imchrismayfield          |
-| HhHAQw    | @swooz                |
-| Pok9XD    | @Timster            |
-| T5zGzt    | @Carl Youngblood            |
+| Unique id | Discord username    | Public address                    |
+| --------- | ------------------- | --------------------------------- |
+| RAAzLF    | @GRAVER 👾                | |
+| 2SyBp0    | @wackozacco        | |
+| 10exgX    | @δαλλασκατ    | |
+| r5YSqY    | @imchrismayfield          | |
+| HhHAQw    | @swooz                | |
+| Pok9XD    | @Timster            | 0x61DD404C7AFDEEc54AC246c1e1d92B23D1b9f594 |
+| T5zGzt    | @Carl Youngblood    | 0x822d80ecd89b2aae0c52590c7f1351351e720eaa |
 
 ## List of interactions
 
