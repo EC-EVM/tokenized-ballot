@@ -18,7 +18,7 @@ This is a group activity for at least 3 students:
 | 10exgX    | @δαλλασκατ    | |
 | r5YSqY    | @imchrismayfield          | |
 | HhHAQw    | @swooz                | |
-| Pok9XD    | @Timster            | `0x61DD404C7AFDEEc54AC246c1e1d92B23D1b9f594` |
+| Pok9XD    | @Timster            | `0x61dd404c7afdeec54ac246c1e1d92b23d1b9f594` |
 | T5zGzt    | @Carl Youngblood    | `0x822d80ecd89b2aae0c52590c7f1351351e720eaa` |
 
 ## List of interactions
