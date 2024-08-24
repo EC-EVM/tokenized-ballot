@@ -10,7 +10,7 @@ async function main() {
   const contract = await viem.deployContract("MyToken");
   console.log(`Token contract deployed at ${contract.address}\n`);
 
-    // mint some tokens
+    // try to mint some tokens graver2
     const mintTx = await contract.write.mint([acc1.account.address, MINT_VALUE]);
     await publicClient.waitForTransactionReceipt({ hash: mintTx });
     console.log(
