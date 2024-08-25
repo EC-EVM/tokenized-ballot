@@ -116,3 +116,20 @@ Transaction hash: 0xe69b9c158a24cfa860c71843ba1b1671c083bc14abb604d19ef73faec890
 Waiting for confirmations...
 Ballot contract deployed to: 0xb79fbbc37d131667de31ad68501e02a5bb897286
 ```
+
+17. Several votes were cast on the contract that @Carl Youngblood deployed. We soon discovered that there was a bug in the contract that did not prevent voters from casting more votes than their allotted number. We guessed that this happened because Carl hadn't recompiled the contracts after doing a git pull to bring in updates to the code. The final results of the vote looked like this:
+
+```
+∴ npx ts-node --files ./scripts/ViewProposalStatus.ts 0xb79fbbc37d131667de31ad68501e02a5bb897286
+
+
+4 proposals found:
+{ index: 0, name: 'Apple', votes: 13500n }
+{ index: 1, name: 'Pear', votes: 10000000000000004700n }
+{ index: 2, name: 'Orange', votes: 800n }
+{ index: 3, name: 'Strawberry', votes: 301300n }
+
+Winner: Pear
+```
+
+18. Bryan then deployed a new contract
