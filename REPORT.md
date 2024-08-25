@@ -143,4 +143,6 @@ $ npx ts-node --files scripts/ViewProposalStatus.ts 0x877d2806e0421233d3a0553c3a
 { index: 1, name: 'tacos', votes: 1100n }
 { index: 2, name: 'donuts', votes: 600n }
 { index: 3, name: 'wings', votes: 2200n }
+
+Winner: wings
 ```
