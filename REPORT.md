@@ -18,7 +18,7 @@ This is a group activity for at least 3 students:
 | 10exgX    | @δαλλασκατ          | Chris Adams | `0x117556e746eED7053dD99dEb9fae019CbaC2013E` |
 | r5YSqY    | @imchrismayfield    | Chris Mayfield | |
 | HhHAQw    | @swooz              | Bryan Suarez | `0x55631F259DE138bCaccfd54D17C6597C58241bE4` |
-| Pok9XD    | @Timster            | Tim liner | `0x61dd404c7afdeec54ac246c1e1d92b23d1b9f594` `0x99940beacb5fc1d87b7df18736559c66a0f98b23` |
+| Pok9XD    | @Timster            | Tim Liner | `0x61dd404c7afdeec54ac246c1e1d92b23d1b9f594` `0x99940beacb5fc1d87b7df18736559c66a0f98b23` |
 | T5zGzt    | @Carl Youngblood    | Carl Youngblood | `0x822d80ecd89b2aae0c52590c7f1351351e720eaa` |
 
 ## List of interactions
