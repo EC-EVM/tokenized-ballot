@@ -132,4 +132,15 @@ Ballot contract deployed to: 0xb79fbbc37d131667de31ad68501e02a5bb897286
 Winner: Pear
 ```
 
-18. Bryan then deployed a new contract
+18. Bryan then deployed [a new contract](https://sepolia.etherscan.io/address/0x877d2806e0421233d3a0553c3aaab7d88f3616af) with the fixes preventing invalid votes. Several new votes were cast. The final proposal status was as follows:
+
+```
+$ npx ts-node --files scripts/ViewProposalStatus.ts 0x877d2806e0421233d3a0553c3aaab7d88f3616af
+
+
+4 proposals found:
+{ index: 0, name: 'pizza, votes: 0n }
+{ index: 1, name: 'tacos', votes: 1100n }
+{ index: 2, name: 'donuts', votes: 600n }
+{ index: 3, name: 'wings', votes: 2200n }
+```
