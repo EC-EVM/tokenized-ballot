@@ -13,11 +13,11 @@ This is a group activity for at least 3 students:
 
 | Unique id | Discord username    | Wallet address                    |
 | --------- | ------------------- | --------------------------------- |
-| RAAzLF    | @GRAVER 👾                | |
-| 2SyBp0    | @wackozacco        | |
-| 10exgX    | @δαλλασκατ    | |
-| r5YSqY    | @imchrismayfield          | |
-| HhHAQw    | @swooz                | |
+| RAAzLF    | @GRAVER 👾          | `0x8152ae0BE775eE8C530b5b13f229D75ADc9291b0` |
+| 2SyBp0    | @wackozacco         | |
+| 10exgX    | @δαλλασκατ          | `0x55631F259DE138bCaccfd54D17C6597C58241bE4` |
+| r5YSqY    | @imchrismayfield    | |
+| HhHAQw    | @swooz              | |
 | Pok9XD    | @Timster            | `0x61dd404c7afdeec54ac246c1e1d92b23d1b9f594` |
 | T5zGzt    | @Carl Youngblood    | `0x822d80ecd89b2aae0c52590c7f1351351e720eaa` |
 
