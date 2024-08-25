@@ -11,94 +11,94 @@ This is a group activity for at least 3 students:
 
 ## Group 2
 
-| Unique id | Discord username    | Wallet address                    |
-| --------- | ------------------- | --------------------------------- |
-| RAAzLF    | @GRAVER 👾          | `0x8152ae0BE775eE8C530b5b13f229D75ADc9291b0` |
-| 2SyBp0    | @wackozacco         | |
-| 10exgX    | @δαλλασκατ          | `0x55631F259DE138bCaccfd54D17C6597C58241bE4` |
-| r5YSqY    | @imchrismayfield    | |
-| HhHAQw    | @swooz              | |
-| Pok9XD    | @Timster            | `0x61dd404c7afdeec54ac246c1e1d92b23d1b9f594` |
-| T5zGzt    | @Carl Youngblood    | `0x822d80ecd89b2aae0c52590c7f1351351e720eaa` |
+| Unique id | Discord username    | Name | Wallet address                    |
+| --------- | ------------------- | ---- | --------------------------------- |
+| RAAzLF    | @GRAVER 👾          |      | `0x8152ae0BE775eE8C530b5b13f229D75ADc9291b0` |
+| 2SyBp0    | @wackozacco         | Zach | `0x8f4db4F817BB198895320d03A0629a69e6bE13B8` |
+| 10exgX    | @δαλλασκατ          | Chris Adams | `0x117556e746eED7053dD99dEb9fae019CbaC2013E` |
+| r5YSqY    | @imchrismayfield    | Chris Mayfield | |
+| HhHAQw    | @swooz              | Bryan Suarez | `0x55631F259DE138bCaccfd54D17C6597C58241bE4` |
+| Pok9XD    | @Timster            | Tim liner | `0x61dd404c7afdeec54ac246c1e1d92b23d1b9f594` `0x99940beacb5fc1d87b7df18736559c66a0f98b23` |
+| T5zGzt    | @Carl Youngblood    | Carl Youngblood | `0x822d80ecd89b2aae0c52590c7f1351351e720eaa` |
 
 ## List of interactions
 
-1. 💫 **[Pass]:** @Timster deployed `TokenizedBallot.sol` smart contract on Sepolia testnet
+1. 💫 **[Pass]:** Tim deployed `TokenizedBallot.sol` smart contract on Sepolia testnet
     1. `npx ts-node --files scripts/DeployMyToken.ts`
     2. [TokenizedBallot.sol contract deployed on Sepolia testnet](https://sepolia.etherscan.io/address/0x3c9d658a9b358cf1985bc52c5476229e8b186f1f)
     3. [Script ↗](./scripts/DeployMyToken.ts)
 
-2. 💫 **[Pass]:** @Timster granted minter role to `0x8f4db4f817bb198895320d03a0629a69e6be13b8`
+2. 💫 **[Pass]:** Tim granted minter role to Zach
     1. `npx ts-node --files scripts/GrantMinterRole.ts 0x3c9d658a9b358cf1985bc52c5476229e8b186f1f 0x8f4db4f817bb198895320d03a0629a69e6be13b8`
     2. [TxHash (0xd5a...2ba)](https://sepolia.etherscan.io/tx/0xd5a409305ec8eaad0be74cc1ab19e2ce81a94c61af622f8e6d91195d385b62ba)
     3. [Script ↗](./scripts/GrantMinterRole.ts)
 
-3. 💫 **[Pass]:** @Timster granted minter role to `0x8152ae0be775ee8c530b5b13f229d75adc9291b0`
+3. 💫 **[Pass]:** Tim granted minter role to Graver
     1. `npx ts-node --files scripts/GrantMinterRole.ts 0x3c9d658a9b358cf1985bc52c5476229e8b186f1f 0x8152ae0be775ee8c530b5b13f229d75adc9291b0`
     2. [TxHash (0x424...194)](https://sepolia.etherscan.io/tx/0x42402acbf50e6c7a93b64b886aaac3a2ed44f4e04fdb2969c42ede8abf0ba194)
     3. [Script ↗](./scripts/GrantMinterRole.ts)
 
-4. 💫 **[Pass]:** `0x8f4db4F817BB198895320d03A0629a69e6bE13B8` minted 100n to himself
+4. 💫 **[Pass]:** Zach minted 100n to himself
     1. `npx ts-node --files scripts/MintTokens.ts 0x3c9d658a9b358cf1985bc52c5476229e8b186f1f 0x8f4db4f817bb198895320d03a0629a69e6be13b8 1000`
     2. [TxHash (0x05d...a6f)](https://sepolia.etherscan.io/tx/0x05d5b2b7a1ad59ba3cdaa7dd578a15f049c1772769af285fe7f8843ec301aa6f)
     3. [Script ↗](./scripts/MintTokens.ts)
 
-5. 💫 **[Pass]:** @Timster minted 1000n to @Carl Youngblood
+5. 💫 **[Pass]:** Tim minted 1000n to Carl
     1. `npx ts-node --files scripts/MintTokens.ts 0x3c9d658a9b358cf1985bc52c5476229e8b186f1f 0x822d80ecd89b2aae0c52590c7f1351351e720eaa 1000`
     2. [TxHash (0x0f0...d9b)](https://sepolia.etherscan.io/tx/0x0f0ba33145c3c3f660bd573b88a0012a7530c0aad6cd9fded3a9bea9a1784d9b)
     3. [Script ↗](./scripts/MintTokens.ts)
 
-6. 💫 **[Pass]:** @Timster minted 1000n to `0x55631f259de138bcaccfd54d17c6597c58241be4`
+6. 💫 **[Pass]:** Tim minted 1000n to Bryan
     1. `npx ts-node --files scripts/MintTokens.ts 0x3c9d658a9b358cf1985bc52c5476229e8b186f1f 0x55631f259de138bcaccfd54d17c6597c58241be4 1000`
     2. [TxHash (0xc31...d47)](https://sepolia.etherscan.io/tx/0xc31eb244dd7bcc98d3a8e5aa5c588c5b454348b2ab2760aeaebd8703e0801d47)
     3. [Script ↗](./scripts/MintTokens.ts)
 
-7.  💫 **[Pass]:** @Carl Youngblood delegated his votes to himself
+7.  💫 **[Pass]:** Carl delegated his votes to himself
     1. `npx ts-node --files scripts/DelegateVotes.ts 0x3c9d658a9b358cf1985bc52c5476229e8b186f1f 0x822D80eCd89b2aae0c52590c7f1351351E720EAa`
     2. [TxHash (0x403...d44)](https://sepolia.etherscan.io/tx/0x40371ef6ed060c6a888f9affd18921343627956f4e2d0dfb297a0f30ff7f4d44)
     3. [Script ↗](./scripts/DelegateVotes.ts)
 
-8. 💫 **[Pass]:** @Timster minted 1000n to `0x117556e746eED7053dD99dEb9fae019CbaC2013E`
+8. 💫 **[Pass]:** Tim minted 1000n to Chris Adams
     1. `npx ts-node --files scripts/MintTokens.ts 0x3c9d658a9b358cf1985bc52c5476229e8b186f1f 0x117556e746eED7053dD99dEb9fae019CbaC2013E 1000`
     2. [TxHash (0xe39...04d)](https://sepolia.etherscan.io/tx/0xe39ff1c2a4c9eeb9af323d336870e34ddf472ad49517c0793d7343443f2c904d)
     3. [Script ↗](./scripts/MintTokens.ts)
 
-9. 💫 **[Pass]:** `0x8f4db4F817BB198895320d03A0629a69e6bE13B8` minted 900n to himself
+9. 💫 **[Pass]:** Zach minted 900n to himself
     1. `npx ts-node --files scripts/MintTokens.ts 0x3c9d658a9b358cf1985bc52c5476229e8b186f1f 0x8f4db4F817BB198895320d03A0629a69e6bE13B8 900`
     2. [TxHash (0xdb...5df)](https://sepolia.etherscan.io/tx/0xdbb16c418b8666c6934fbf3d5a06be757bb97c52dfef1fec38fd9310a34855df)
     3. [Script ↗](./scripts/MintTokens.ts)
 
-10. 💫 **[Pass]:** @Timster minted 1000n to `0x99940BeaCB5FC1d87b7Df18736559c66A0f98b23`
+10. 💫 **[Pass]:** Tim minted 1000n to another account of his own
     1. `npx ts-node --files scripts/MintTokens.ts 0x3c9d658a9b358cf1985bc52c5476229e8b186f1f 0x99940BeaCB5FC1d87b7Df18736559c66A0f98b23 1000`
     2. [TxHash (0x7fa...648)](https://sepolia.etherscan.io/tx/0x7faf2698720ddf8d53aff68b6ac9d35b62ec0dd687a16eeb3d707a55f77df648)
     3. [Script ↗](./scripts/MintTokens.ts)
 
-11. 💫 **[Pass]:** `0x8f4db4F817BB198895320d03A0629a69e6bE13B8` delegated his votes to himself
+11. 💫 **[Pass]:** Zach delegated his votes to himself
     1. `npx ts-node --files scripts/DelegateVotes.ts 0x3c9d658a9b358cf1985bc52c5476229e8b186f1f 0x8f4db4F817BB198895320d03A0629a69e6bE13B8`
     2. [TxHash (0xa45...8c0)](https://sepolia.etherscan.io/tx/0xa452cb63bcad895b0dd44b73ac3c5f60cf28b00c72598f3635142278e62818c0)
     3. [Script ↗](./scripts/DelegateVotes.ts)
 
-12. 💫 **[Pass]:** `0x99940BeaCB5FC1d87b7Df18736559c66A0f98b23` delegated his votes to `0x8071527946235eF9Ca115bd409C8487496BEbF9B`
+12. 💫 **[Pass]:** Tim delegated his second account's votes to his first account
     1. `npx ts-node --files scripts/DelegateVotes.ts 0x3c9d658a9b358cf1985bc52c5476229e8b186f1f 0x8071527946235eF9Ca115bd409C8487496BEbF9B`
     2. [TxHash (0x9cc...425)](https://sepolia.etherscan.io/tx/0x9ccc81d9de8f036f7559ca724b88255880a4b8dc21a9baedc078835dbacde425)
     3. [Script ↗](./scripts/DelegateVotes.ts)
 
-13. 💫 **[Pass]:** `0x8152ae0BE775eE8C530b5b13f229D75ADc9291b0` minted 1000n to himself
+13. 💫 **[Pass]:** Graver minted 1000n to himself
     1. `npx ts-node --files scripts/MintTokens.ts 0x3c9d658a9b358cf1985bc52c5476229e8b186f1f 0x8152ae0BE775eE8C530b5b13f229D75ADc9291b0 1000`
     2. [TxHash (0x556...3b5)](https://sepolia.etherscan.io/tx/0x556d96ec87b06b93e69d83c4bb9aa8fd6588f7aab7042f6509eded5eda0cd3b5)
     3. [Script ↗](./scripts/MintTokens.ts)
 
-14. 💫 **[Pass]:** `0x8152ae0BE775eE8C530b5b13f229D75ADc9291b0` delegated his votes to himself
+14. 💫 **[Pass]:** Graver delegated his votes to himself
     1. `npx ts-node --files scripts/DelegateVotes.ts 0x3c9d658a9b358cf1985bc52c5476229e8b186f1f 0x8152ae0BE775eE8C530b5b13f229D75ADc9291b0`
     2. [TxHash (0x8f6...990)](https://sepolia.etherscan.io/tx/0x8f6c27c342bfa9b94745c14eb5da647288092035f47dac1a02c877795c735990)
     3. [Script ↗](./scripts/DelegateVotes.ts)
 
-15. 💫 **[Pass]:** `0x55631F259DE138bCaccfd54D17C6597C58241bE4` delegated his votes to himself
+15. 💫 **[Pass]:** Bryan delegated his votes to himself
     1. `npx ts-node --files scripts/DelegateVotes.ts 0x3c9d658a9b358cf1985bc52c5476229e8b186f1f 0x55631F259DE138bCaccfd54D17C6597C58241bE4`
     2. [TxHash (0x312...195)](https://sepolia.etherscan.io/tx/0x3123b35a7df87a33f0fb37272be05e88d9c46a8f2492a075c8bace7a00472195)
     3. [Script ↗](./scripts/DelegateVotes.ts)
    
-16. 💫 **[Pass]:** @Carl Youngblood deployed a tokenized ballot. Later on we discovered this contract was old and was missing some error checks.
+16. 💫 **[Pass]:** Carl deployed a tokenized ballot. Later on we discovered this contract was old and was missing some error checks.
     1. `npx ts-node --files ./scripts/DeployTokenizedBallot.ts 0x3C9d658a9B358cf1985bc52C5476229E8b186F1f 6564572 Apple Pear Orange Strawberry`
     2. [TxHash (0xe69...cca)](https://sepolia.etherscan.io/tx/0xe69b9c158a24cfa860c71843ba1b1671c083bc14abb604d19ef73faec8904cca)
     3. [Script ↗](./scripts/DeployTokenizedBallot.ts)
@@ -117,7 +117,7 @@ Waiting for confirmations...
 Ballot contract deployed to: 0xb79fbbc37d131667de31ad68501e02a5bb897286
 ```
 
-17. Several votes were cast on the contract that @Carl Youngblood deployed. We soon discovered that there was a bug in the contract that did not prevent voters from casting more votes than their allotted number. We guessed that this happened because Carl hadn't recompiled the contracts after doing a git pull to bring in updates to the code. The final results of the vote looked like this:
+17. Several votes were cast on the contract that Carl deployed. We soon discovered that there was a bug in the contract that did not prevent voters from casting more votes than their allotted number. We guessed that this happened because Carl hadn't recompiled the contracts after doing a git pull to bring in updates to the code. The final results of the vote looked like this:
 
 ```
 ∴ npx ts-node --files ./scripts/ViewProposalStatus.ts 0xb79fbbc37d131667de31ad68501e02a5bb897286
