@@ -13,7 +13,7 @@ This is a group activity for at least 3 students:
 
 | Unique id | Discord username    | Name | Wallet address                    |
 | --------- | ------------------- | ---- | --------------------------------- |
-| RAAzLF    | @GRAVER 👾          |      | `0x8152ae0BE775eE8C530b5b13f229D75ADc9291b0` |
+| RAAzLF    | @GRAVER 👾          | Mike Mendoza | `0x8152ae0BE775eE8C530b5b13f229D75ADc9291b0` |
 | 2SyBp0    | @wackozacco         | Zach | `0x8f4db4F817BB198895320d03A0629a69e6bE13B8` |
 | 10exgX    | @δαλλασκατ          | Chris Adams | `0x117556e746eED7053dD99dEb9fae019CbaC2013E` |
 | r5YSqY    | @imchrismayfield    | Chris Mayfield | |
